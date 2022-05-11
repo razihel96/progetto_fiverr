@@ -1,0 +1,22 @@
+body {
+  background-color: orange;
+}
+
+#banner {
+  border: 2px solid black;
+}
+
+#elenco {
+  border: 2px solid red;
+  display: flex;
+  justify-content: flex-start;
+}
+
+#n {
+  width: 80%;
+}
+
+li {
+  border: 2px solid green;
+  list-style-type: none;
+}
