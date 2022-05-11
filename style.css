@@ -1,6 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-color: orange;
+  font-size: 20px;
 }
+
+
+/*****BANNER*****/
 
 #banner {
   border: 2px solid black;
@@ -10,13 +20,147 @@ body {
   border: 2px solid red;
   display: flex;
   justify-content: flex-start;
+  height: 70px;
+
+  /*diamo dei margini così è più pulito*/
+  width: 80%;
+  margin: auto;
+}
+
+#e {
+  width: 20%;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 10px;
 }
 
 #n {
-  width: 80%;
+  width: 60%;
+  align-items: center;
+  padding-left: 10px;
+
+}
+
+#b {
+  width: 30%;
+  align-items: center;
+}
+
+.loghini {
+  /*border: 2px solid green;*/
+
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
 li {
   border: 2px solid green;
   list-style-type: none;
+  display: flex;
+
+}
+
+
+
+
+/*****HERO: LOGO e MENU*****/
+
+#elenco2 {
+  border: 2px solid red;
+
+  display: flex;
+  justify-content: flex-start;
+
+  /*diamo dei margini così è più pulito*/
+  width: 80%;
+  margin: auto;
+
+  margin-top: 30px;
+}
+
+
+#logo {
+  width: 60%;
+}
+
+#fotologo {
+  width: 100px;
+  height: 100px;
+}
+
+.menu {
+  width: 15%;
+  justify-content: center;
+  align-items: center;
+}
+
+/*****HERO2*****/
+
+#hero2 {
+  border: 2px solid red;
+
+  display: flex;
+
+  /*diamo dei margini così è più pulito*/
+  width: 80%;
+  margin: auto;
+
+  margin-top: 30px;
+}
+
+#testo {
+  border: 2px solid red;
+
+
+
+}
+
+#testo h1 {
+  border: 2px solid black;
+
+  font-size: 80px;
+  font-weight: bold;
+  line-height: 80px;
+}
+
+#testo h3 {
+  border: 2px solid green;
+
+  /*per distanziare i testi tra loro*/
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+#testo button {
+  /*border: 2px solid blue;*/
+
+  font-size: 20px;
+  font-weight: bold;
+
+  letter-spacing: 2px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+  border: 3px solid black;
+  border-radius: 60px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: orange;
+}
+
+
+#mockup {
+  border: 2px solid green;
+
+  padding-right: 30px;
+  width: 600px;
+  height: 600px;
 }
