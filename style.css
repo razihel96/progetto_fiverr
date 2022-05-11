@@ -10,6 +10,10 @@ body {
 }
 
 
+
+
+
+
 /*****BANNER*****/
 
 #banner {
@@ -65,6 +69,8 @@ li {
 
 
 
+
+
 /*****HERO: LOGO e MENU*****/
 
 #elenco2 {
@@ -96,6 +102,14 @@ li {
   align-items: center;
 }
 
+
+
+
+
+
+
+
+
 /*****HERO2*****/
 
 #hero2 {
@@ -112,8 +126,6 @@ li {
 
 #testo {
   border: 2px solid red;
-
-
 
 }
 
@@ -134,7 +146,7 @@ li {
   font-size: 20px;
 }
 
-#testo button {
+.bottone {
   /*border: 2px solid blue;*/
 
   font-size: 20px;
@@ -163,4 +175,116 @@ li {
   padding-right: 30px;
   width: 600px;
   height: 600px;
+}
+
+
+
+
+
+
+
+
+/*****CORPO*****/
+.titolo {
+  border: 2px solid blue;
+  /*diamo dei margini così è più pulito*/
+  width: 80%;
+  margin: auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 40px;
+
+  text-align: center;
+
+}
+
+#sezioni ul {
+  border: 2px solid black;
+
+  /*diamo dei margini così è più pulito*/
+  width: 80%;
+  height: 400px;
+  margin: auto;
+
+
+  display: flex;
+  flex-direction: row;
+}
+
+#sezioni ul .sotto {
+  border: 2px solid pink;
+
+  width: 80%;
+  margin: auto;
+}
+
+.idk {
+  border: 2px solid yellow;
+
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  border: 2px solid red;
+
+  width: 90px;
+  height: 90px;
+}
+
+.titoletto {
+  border: 2px solid red;
+
+  font-size: 25px;
+  margin-top: 10px;
+
+}
+
+.testo2 {
+  border: 2px solid red;
+
+  /*diamo dei margini così è più pulito*/
+  width: 80%;
+  margin: auto;
+
+  margin-top: 60px;
+  text-align: center;
+
+}
+
+#sezioni-bottone {
+  border: 2px solid red;
+
+  /*diamo dei margini così è più pulito*/
+  width: 80%;
+  margin: auto;
+
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+
+
+
+
+/*****CORPO2*****/
+
+.titolo h3 {
+  border: 2px solid red;
+
+  width: 70%;
+  margin: auto;
+  margin-top: 30px;
+
+
 }
