@@ -412,6 +412,9 @@ th, td {
 }
 
 
+
+
+
 /******SLIDER******/
 .item {
   border: 2px solid black;
@@ -428,5 +431,39 @@ th, td {
 }
 
 .owl-carousel {
+  border: 2px solid green;
+
   margin-bottom: 180px;
+}
+
+
+
+
+/******NEWSLETTER******/
+#news-lettera {
+  border: 2px solid green;
+
+  position: absolute;
+  index: 2;
+  margin-left: 50px;
+
+}
+
+#news {
+  background-color: lightgrey;
+  border: 2px solid green;
+
+  width: 80%;
+  height: 400px;
+  margin: auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  font-size: 40px;
+
+  position: relative;
+  index: -1;
 }
