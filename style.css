@@ -93,7 +93,7 @@ li {
   width: 60%;
 }
 
-#fotologo {
+.fotologo {
   width: 100px;
   height: 100px;
 }
@@ -444,8 +444,11 @@ th, td {
   border: 2px solid green;
 
   position: absolute;
-  index: 2;
-  margin-left: 50px;
+  z-index: 2;
+
+  margin-bottom: 355px;
+
+
 
 }
 
@@ -454,8 +457,9 @@ th, td {
   border: 2px solid green;
 
   width: 80%;
-  height: 400px;
+  height: 350px;
   margin: auto;
+  margin-bottom: 180px;
 
   display: flex;
   justify-content: center;
@@ -465,5 +469,18 @@ th, td {
   font-size: 40px;
 
   position: relative;
-  index: -1;
+  z-index: -1;
+}
+
+
+
+
+
+/******INFO******/
+#info {
+  background-color: black;
+  color: white;
+
+  padding-top: 80px;
+
 }
