@@ -198,7 +198,7 @@ li {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 100px;
+  margin-top: 180px;
   margin-bottom: 40px;
 
   text-align: center;
@@ -345,4 +345,88 @@ li {
   font-size: 18px;
   line-height: 18px;
 
+}
+
+
+/******CORPO3******/
+.griglia {
+  border: 2px solid black;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 80%;
+  margin:auto;
+}
+
+th, td {
+  border: 2px solid red;
+
+  padding: 25px;
+  text-align: center;
+
+}
+
+.griglia p {
+  margin: auto;
+}
+
+.griglia h3 {
+  border: 2px solid green;
+
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+
+/******CORPO4******/
+#corpo4 {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  margin-top: 180px;
+  margin-bottom: 180px;
+  height: 500px;
+}
+
+#corpo4 span, h1, p {
+  border: 2px solid red;
+
+  width: 80%;
+  margin-bottom: 30px;
+}
+
+#corpo4 span {
+  font-size: 15px;
+}
+
+#corpo4 h1 {
+  font-size: 50px;
+}
+
+
+/******SLIDER******/
+.item {
+  border: 2px solid black;
+  text-align: center;
+
+  width: 220px;
+
+
+}
+
+.item p {
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.owl-carousel {
+  margin-bottom: 180px;
 }
