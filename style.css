@@ -482,5 +482,30 @@ th, td {
   color: white;
 
   padding-top: 80px;
+  padding-bottom: 80px;
+  display: flex;
+  justify-content: space-around;
 
+}
+
+.info2 {
+  border: 2px solid green;
+
+  display: flex;
+  flex-direction: column;
+}
+
+#info h3 {
+  border: 2px solid red;
+
+}
+
+.info-sn img {
+  width: 22px;
+  height: 22px;
+}
+
+.info-mdp img {
+  width: 40px;
+  height: 40px;
 }
