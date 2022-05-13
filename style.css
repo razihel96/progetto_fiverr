@@ -5,7 +5,8 @@
 }
 
 body {
-  background: #d4d5e9;
+  background: #35394d;
+  color: white;
 
   font-family: 'Prompt', sans-serif;
   font-weight: 100;
@@ -96,6 +97,8 @@ body {
 
 
 
+
+
 .loghini {
   /*border: 2px solid green;*/
 
@@ -144,6 +147,12 @@ li {
   width: 15%;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
+}
+
+
+.menu:hover {
+  color: orange;
 }
 
 
@@ -166,7 +175,7 @@ li {
   width: 80%;
   margin: auto;
 
-  margin-top: 30px;
+  margin-top: 70px;
 }
 
 #testo {
@@ -181,6 +190,7 @@ li {
   font-weight: bold;
   line-height: 80px;
   font-weight: 600;
+
 }
 
 #testo h3 {
@@ -238,6 +248,11 @@ li {
 
 
 /*****CORPO*****/
+
+#sezioni {
+  /*border: 2px solid blue;*/
+
+}
 .titolo {
   /*border: 2px solid blue;*/
 
@@ -250,7 +265,7 @@ li {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 180px;
+  margin-top: 100px;
   margin-bottom: 40px;
 
   text-align: center;
@@ -305,7 +320,7 @@ li {
 }
 
 .icon {
-  border: 2px solid red;
+  /*border: 2px solid red;*/
   border-radius: 100px;
 
   width: 120px;
@@ -344,6 +359,7 @@ li {
   justify-content: center;
 
   margin-top: 25px;
+  margin-bottom: 180px;
 }
 
 
@@ -367,27 +383,29 @@ li {
 
 
 #sezione2 {
-  border: 2px solid red;
+  /*border: 2px solid red;*/
 
   display: flex;
   align-items: center;
 
   width: 80%;
   margin: auto;
+  margin-top: 70px;
+  margin-bottom: 150px;
 }
 
 #sezione2 img {
-  border: 2px solid yellow;
+  /*border: 2px solid yellow;*/
 
 }
 
 #sezione2 ul {
-  border: 2px solid blue;
+  /*border: 2px solid blue;*/
 
 }
 
 #sezione2 li {
-  border: 2px solid green;
+  /*border: 2px solid green;*/
 
   width: 80%;
   margin-left: auto;
@@ -418,7 +436,6 @@ li {
   font-weight: 400;
 }
 .social p {
-  line-height: 18px;
   font-weight: 100;
 }
 
@@ -460,6 +477,9 @@ th, td {
 #corpo4 {
   background-color: black;
   color: white;
+
+  border-top: 2px solid orange;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -469,6 +489,7 @@ th, td {
   margin-top: 180px;
   margin-bottom: 180px;
   height: 500px;
+
 }
 
 #corpo4 span, h1, p {
@@ -492,12 +513,15 @@ th, td {
 
 /******SLIDER******/
 .item {
-  /*border: 2px solid black;*/
+  /*border: 2px solid yellow;*/
   text-align: center;
 
   width: 220px;
+  margin-bottom: 30px;
 
+  box-shadow: 8px 8px 20px black;
 
+  padding-bottom: 10px;
 }
 
 .item p {
@@ -528,7 +552,7 @@ th, td {
 }
 
 #news {
-  background: linear-gradient(0deg, rgba(255,245,172,1) 0%, rgba(255,214,94,1) 82%);
+  background: linear-gradient(0deg, rgba(255,235,145,1) 0%, rgba(255,207,65,1) 82%);
 
   border-radius: 50px;
   /*border: 2px solid green;*/
@@ -544,6 +568,7 @@ th, td {
   text-align: center;
 
   font-size: 35px;
+  color: black;
 
   position: relative;
   z-index: -1;
@@ -603,6 +628,14 @@ th, td {
   flex-direction: column;
   justify-content: space-around;
 
+}
+
+.info2 span {
+  cursor: pointer;
+}
+
+.info2 span:hover {
+  color: orange;
 }
 
 #info h3 {
