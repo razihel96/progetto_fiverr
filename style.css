@@ -67,7 +67,7 @@ body {
   position: absolute;
   z-index: 1;
 
-  margin-left: 165px;
+  margin-left: 220px;
 
 }
 
@@ -83,7 +83,7 @@ body {
 .search {
   border: 2px solid red;
 
-  width: 200px;
+  width: 250px;
   height: 35px;
   border-radius: 40px;
   padding: 10px;
@@ -233,9 +233,11 @@ li {
 /*****CORPO*****/
 .titolo {
   border: 2px solid blue;
+
   /*diamo dei margini così è più pulito*/
   width: 80%;
   margin: auto;
+
 
   display: flex;
   flex-direction: column;
@@ -246,6 +248,12 @@ li {
 
   text-align: center;
 
+}
+
+.titolo img {
+  border: 2px solid black;
+  margin-bottom: 0px;
+  margin-top: -30px;
 }
 
 #sezioni ul {
@@ -278,11 +286,21 @@ li {
   align-items: center;
 }
 
+.spazio {
+  border: 2px solid yellow;
+
+  height: 220px;
+}
+
 .icon {
   border: 2px solid red;
+  border-radius: 100px;
 
-  width: 90px;
-  height: 90px;
+  width: 120px;
+  height: 120px;
+
+  padding: 10px;
+  box-shadow: 5px 5px 8px black;
 }
 
 .titoletto {
@@ -290,7 +308,6 @@ li {
 
   font-size: 25px;
   margin-top: 10px;
-
 }
 
 .testo2 {
@@ -302,7 +319,6 @@ li {
 
   margin-top: 60px;
   text-align: center;
-
 }
 
 #sezioni-bottone {
@@ -330,7 +346,6 @@ li {
 
   width: 70%;
   margin: auto;
-  margin-top: 30px;
 
   font-weight: 100;
 }
@@ -345,7 +360,6 @@ li {
 
   width: 80%;
   margin: auto;
-
 }
 
 #sezione2 img {
@@ -376,6 +390,7 @@ li {
   margin-right: 30px;
 }
 
+
 .social h1 {
   font-size: 30px;
   margin-bottom: 10px;
@@ -384,13 +399,14 @@ li {
   font-size: 22px;
   line-height: 18px;
   margin-bottom: 10px;
-
 }
 .social p {
   font-size: 18px;
   line-height: 18px;
-
 }
+
+
+
 
 
 /******CORPO3******/
@@ -410,7 +426,6 @@ th, td {
 
   padding: 25px;
   text-align: center;
-
 }
 
 .griglia p {
