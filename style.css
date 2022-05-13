@@ -8,7 +8,10 @@ body {
   background: #d4d5e9;
 
 
-  font-size: 20px;
+
+  font-family: 'Prompt', sans-serif;
+  font-weight: 100;
+
 }
 
 
@@ -51,6 +54,44 @@ body {
   width: 30%;
   align-items: center;
 }
+
+
+/*BARRA DI RICERCA*/
+.button {
+  border: none;
+  border-radius: 30px;
+  background-color: orange;
+  padding: 10px;
+  cursor: pointer;
+
+  position: absolute;
+  z-index: 1;
+
+  margin-left: 165px;
+
+}
+
+.button:hover {
+  background-color: gold;
+}
+
+.button img {
+  width: 20px;
+  height: 20px;
+}
+
+.search {
+  border: 2px solid red;
+
+  width: 200px;
+  height: 35px;
+  border-radius: 40px;
+  padding: 10px;
+
+  font-size: 15px;
+}
+
+
 
 .loghini {
   /*border: 2px solid green;*/
@@ -138,6 +179,7 @@ li {
   font-size: 80px;
   font-weight: bold;
   line-height: 80px;
+  font-weight: 600;
 }
 
 #testo h3 {
@@ -147,6 +189,7 @@ li {
   margin-top: 30px;
   margin-bottom: 30px;
   font-size: 20px;
+  font-weight: 400;
 }
 
 .bottone {
@@ -288,6 +331,8 @@ li {
   width: 70%;
   margin: auto;
   margin-top: 30px;
+
+  font-weight: 100;
 }
 
 
@@ -459,7 +504,6 @@ th, td {
   width: 80%;
   height: 350px;
   margin: auto;
-  margin-bottom: 180px;
 
   display: flex;
   justify-content: center;
@@ -470,6 +514,9 @@ th, td {
 
   position: relative;
   z-index: -1;
+
+  margin-bottom: 40px;
+
 }
 
 
@@ -485,7 +532,7 @@ th, td {
   padding-bottom: 80px;
   display: flex;
   justify-content: space-around;
-
+  height: 400px;
 }
 
 .info2 {
@@ -493,6 +540,8 @@ th, td {
 
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
+
 }
 
 #info h3 {
@@ -501,11 +550,30 @@ th, td {
 }
 
 .info-sn img {
+  border: 2px solid yellow;
+
   width: 22px;
   height: 22px;
+
+  margin: 10px;
 }
 
 .info-mdp img {
   width: 40px;
   height: 40px;
+}
+
+#cell {
+  border: 2px solid yellow;
+
+  font-size: 26px;
+  display: flex;
+  align-items: center;
+}
+
+
+#cell p {
+  border: 2px solid blue;
+
+  margin: auto;
 }
